@@ -6,13 +6,13 @@ import MapContainer from './MapContainer.js';
 
 function App() {
   return (
-    <MapContainer/>
+    CreateMap()
   );
 }
 
 function CreateMap(){
   return (
-      MapContainer
+    <MapContainer/>
   );
 }
 
